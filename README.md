@@ -1,4 +1,3 @@
 # 타이머와 스톱워치
 
- <img src="https://img.shields.io/badge/TypeScript-FDB515?style=flat&logo=타이머&logoColor=white"/>
-
+ <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
