@@ -83,6 +83,12 @@
               value="일시정지"
             />
             <input
+              type="hidden"
+              class="stop_watch_record_btn"
+              id="stop_watch_record_btn"
+              value="기록"
+            />
+            <input
               type="button"
               class="stop_watch_reset_btn"
               id="stop_watch_reset_btn"
@@ -90,9 +96,16 @@
             />
           </div>
         </div>
+        <input
+          type="button"
+          value="기록보기"
+          id="stop_watch_record_list_btn"
+          class="stop_watch_record_list_btn"
+        />
+        <ul id="stop_watch_record_list"></ul>
       </div>
-      <hr />
     </div>
+    <hr />
     <script src="./js/timer.js"></script>
     <script src="./js/stop_watch.js"></script>
   </body>
