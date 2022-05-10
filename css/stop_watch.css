@@ -1,0 +1,41 @@
+.container .stop_watch_wrap {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 15px 40px;
+  background-color: #a7abb7;
+}
+
+.container .stop_watch_wrap .stop_watch_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .stop_watch_box .stop_watch_clock_box {
+  margin-right: 25px;
+}
+
+.container .stop_watch_wrap .stop_watch_box .stop_watch_sub_clock {
+  font-size: 1em;
+}
+
+.container .stop_watch_wrap .stop_watch_btn_box input[type="button"] {
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.container .stop_watch_wrap .stop_watch_btn_box .stop_watch_start_btn {
+  background-color: cornflowerblue;
+}
+
+.container .stop_watch_wrap .stop_watch_btn_box .stop_watch_restart_btn {
+  background-color: cornflowerblue;
+}
+.container .stop_watch_wrap .stop_watch_btn_box .stop_watch_reset_btn {
+  background-color: rgb(63, 76, 88);
+}
+.container .stop_watch_wrap .stop_watch_btn_box .stop_watch_pause_btn {
+  background-color: crimson;
+}

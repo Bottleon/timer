@@ -1,0 +1,51 @@
+.container .timer_wrap {
+  display: inline-block;
+  border: 1px solid gray;
+}
+
+.container .timer_wrap .timer_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0;
+  background-color: #a7abb7;
+}
+
+.container .timer_wrap .timer_button_box input[type="button"] {
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.container .timer_wrap .timer_button_box .timer_start_btn,
+.timer_restart_btn {
+  background-color: cornflowerblue;
+  opacity: 0.6;
+}
+
+.container .timer_wrap .timer_button_box .timer_reset_btn {
+  background-color: rgb(63, 76, 88);
+  opacity: 0.6;
+}
+
+.container .timer_wrap .timer_button_box .timer_pause_btn {
+  background-color: crimson;
+}
+
+.container .timer_wrap .timer_setting_wrap {
+  display: flex;
+}
+
+.container .timer_wrap .timer_setting_wrap button {
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  border-top: 1px solid gray;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.container .timer_wrap .timer_setting_wrap button:not(:last-child) {
+  border-right: 1px solid gray;
+}

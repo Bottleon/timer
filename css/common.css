@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "digiter";
+  src: url("../font/digiter.ttf") format("truetype");
+}
+.container .clock {
+  font-family: "digiter";
+  font-size: 2em;
+}
+
+.container .hide {
+  display: "none";
+}

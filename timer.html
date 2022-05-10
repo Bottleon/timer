@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머와 스톱워치</title>
+    <link rel="stylesheet" href="./css/timer.css" />
+    <link rel="stylesheet" href="./css/stop_watch.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer_wrap">
+        <div class="timer_box">
+          <div class="timer_clock clock" id="timer_clock">00:00:00</div>
+          <div class="timer_button_box">
+            <input
+              type="button"
+              class="timer_start_btn"
+              id="timer_start_btn"
+              value="시작"
+              disabled
+            />
+            <input
+              type="hidden"
+              class="timer_restart_btn"
+              id="timer_restart_btn"
+              value="재시작"
+            />
+            <input
+              type="hidden"
+              class="timer_pause_btn"
+              id="timer_pause_btn"
+              value="일시정지"
+            />
+            <input
+              type="button"
+              class="timer_reset_btn"
+              id="timer_reset_btn"
+              value="리셋"
+              disabled
+            />
+          </div>
+        </div>
+        <div class="timer_setting_wrap">
+          <button class="timeSelect">➕10초</button>
+          <button class="timeSelect">➕1분</button>
+          <button class="timeSelect">➕5분</button>
+          <button class="timeSelect">➕10분</button>
+          <button class="timeSelect">➕30분</button>
+          <button class="timeSelect">➕1시간</button>
+        </div>
+      </div>
+      <hr />
+      <div class="stop_watch_wrap">
+        <div class="stop_watch_box">
+          <div class="stop_watch_clock_box">
+            <span class="stop_watch_clock clock" id="stop_watch_clock">
+              00:00:00
+            </span>
+            <span class="stop_watch_sub_clock clock" id="stop_watch_sub_clock"
+              >00</span
+            >
+          </div>
+          <div class="stop_watch_btn_box">
+            <input
+              type="button"
+              class="stop_watch_start_btn"
+              id="stop_watch_start_btn"
+              value="시작"
+            />
+            <input
+              type="hidden"
+              class="stop_watch_restart_btn"
+              id="stop_watch_restart_btn"
+              value="재시작"
+            />
+            <input
+              type="hidden"
+              class="stop_watch_pause_btn"
+              id="stop_watch_puase_btn"
+              value="일시정지"
+            />
+            <input
+              type="button"
+              class="stop_watch_reset_btn"
+              id="stop_watch_reset_btn"
+              value="리셋"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <script src="./js/timer.js"></script>
+    <script src="./js/stop_watch.js"></script>
+  </body>
+</html>
